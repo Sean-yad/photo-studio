@@ -65,7 +65,7 @@
 @media all and (max-width: 600px) {
   .logo {
     margin: 0.25em 0;
-    align-self: left; /* align the logo to the left side of 'flex-container' */
+    align-self: left;
   }
 
   .navigation {
@@ -78,6 +78,7 @@
     padding: 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 0 0 -3em;
   }
 
   .navigation li:last-of-type a {
