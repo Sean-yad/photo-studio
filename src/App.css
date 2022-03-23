@@ -39,7 +39,7 @@ body {
   display: block;
   padding: 1em;
   color: rgb(0, 0, 0);
-  transition: color .6s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 ul.navigation {
@@ -53,7 +53,7 @@ a:focus {
   pointer-events: auto;
   cursor: pointer;
   opacity: 0.9;
-  color: red;
+  color: rgb(25, 131, 230);
 }
 
 /* *********** media queries *********** */
