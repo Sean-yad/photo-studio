@@ -10,7 +10,7 @@ function App() {
     <Router>
       <nav className="flex-container">
         <h1 className="logo">
-            <Link to="/"> Shayan Yadegari </Link>
+            <Link to="/"> Logo </Link>
         </h1>
         <ul className="navigation">
           <li>

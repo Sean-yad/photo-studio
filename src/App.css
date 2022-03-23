@@ -7,14 +7,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(74, 76, 77);
+  background: rgb(0, 0, 0);
 }
 
 .logo {
   margin: 0 0 0 0.45em;
+  
 }
 .logo a {
   color: rgb(255, 255, 255);
+  
 }
 
 .logo,
@@ -34,11 +36,11 @@
 .navigation a {
   display: block;
   padding: 1em;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .navigation a:hover {
-  background: #8a8f91;
+  background: #413f3f;
 }
 
 /* *********** media queries *********** */
