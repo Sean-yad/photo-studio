@@ -39,6 +39,7 @@ body {
   display: block;
   padding: 1em;
   color: rgb(0, 0, 0);
+  transition: color .6s ease-in-out;
 }
 
 ul.navigation {
@@ -46,12 +47,12 @@ ul.navigation {
   padding: 0;
 }
 
-a:hover,
-a:focus {
+a:hover {
   left: auto;
   pointer-events: auto;
+  cursor: pointer;
   opacity: 0.9;
-  transition: opacity 0.6s ease 0s;
+  color: red;
 }
 
 /* *********** media queries *********** */
