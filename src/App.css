@@ -47,7 +47,8 @@ ul.navigation {
   padding: 0;
 }
 
-a:hover {
+a:hover,
+a:focus {
   left: auto;
   pointer-events: auto;
   cursor: pointer;
