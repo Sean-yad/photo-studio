@@ -12,7 +12,8 @@
 }
 
 .logo {
-  margin: 0 0 0 0.45em;
+  margin: 0 0 0 0.9em;
+  font-size: 30px;
 }
 .logo a {
   color: rgb(0, 0, 0);
@@ -30,6 +31,7 @@
 
 .navigation {
   display: flex;
+  margin: 0 0 0 0.9em;
 }
 
 .navigation a {
