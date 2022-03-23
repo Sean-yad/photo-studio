@@ -7,16 +7,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(255, 255, 255);
-  border-bottom: 1px solid #333;
+  background: rgb(0, 0, 0);
 }
 
 .logo {
-  margin: 0 0 0 0.9em;
-  font-size: 30px;
+  margin: 0 0 0 0.45em;
+  
 }
 .logo a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  
 }
 
 .logo,
@@ -31,13 +31,12 @@
 
 .navigation {
   display: flex;
-  margin: 0 0 0 0.9em;
 }
 
 .navigation a {
   display: block;
   padding: 1em;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .navigation a:hover {
@@ -65,7 +64,7 @@
 @media all and (max-width: 600px) {
   .logo {
     margin: 0.25em 0;
-    align-self: left;
+    align-self: left; /* align the logo to the left side of 'flex-container' */
   }
 
   .navigation {
@@ -78,10 +77,16 @@
     padding: 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    margin: 0 0 0 -3em;
+    margin: 0;
   }
 
   .navigation li:last-of-type a {
     border-bottom: none;
   }
+
+  ul.navigation {
+    margin: 0;
+    padding: 0;
+  }
+
 }
