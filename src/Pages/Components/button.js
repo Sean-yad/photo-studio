@@ -4,7 +4,7 @@ import "./component.css";
 
 export default function DisableElevation() {
   return (
-    <Button variant="contained" disableElevation>
+    <Button variant="contained" disableElevation className="Button">
       Disable elevation
     </Button>
   );
