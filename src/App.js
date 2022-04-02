@@ -6,21 +6,11 @@ import Portfolio from "./Pages/Portfolio";
 import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
 import ErrorPage from "./Pages/ErrorPage";
-import { createMuiTheme, ThemeProvider } from "@material-ui/core"
-import { purple } from "@material-ui/core/colors"
 
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      main: "#fefefe",
-    },
-    secondary: purple,
-  },
-});
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    
       <Router>
         <nav className="flex-container">
           <h1 className="logo">
@@ -55,7 +45,7 @@ function App() {
         </Routes>
         <div> Footer </div>
       </Router>
-    </ThemeProvider>
+   
   );
 }
 
