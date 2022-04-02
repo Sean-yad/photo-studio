@@ -5,6 +5,7 @@
 
 body {
   background-color: #fafafa;
+  font-family: 'Vazirmatn', sans-serif;
 }
 .flex-container {
   display: flex;
