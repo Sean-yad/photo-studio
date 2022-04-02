@@ -6,6 +6,7 @@
 body {
   background-color: #fafafa;
   font-family: 'Vazirmatn', sans-serif;
+  
 }
 .flex-container {
   display: flex;
@@ -148,3 +149,51 @@ footer p {
     padding: 0;
   }
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* ==== SIMPLE FOOTER ==== */
+
+footer {
+  background-color: rgb(243, 243, 243);
+  display: table;
+  width: 100vw;
+  height: 8rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+  font-size: .875rem;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+footer small {
+  color: rgb(83, 83, 83);
+  letter-spacing: .025rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.footer-nav a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 .5rem;
+  display: inline-block;
+}
+
+.footer-nav a:hover {
+  color: #646262;
+  transition: color .15s ease-in-out;
+}
+
+
