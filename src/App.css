@@ -58,6 +58,34 @@ a:focus {
   color: rgb(25, 131, 230);
 }
 
+.block_footer {
+  background: rgb(210, 210, 210);
+  padding: 20px 0;
+  border-top: 4px solid white;
+  color: white;
+  margin: 0px;
+}
+
+footer {
+  display: flex;
+}
+
+footer h3 {
+  text-align: center;
+}
+footer .row{
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+.block_copyright {
+  padding: 10px 0;
+  text-align: center;
+}
+
 /* *********** media queries *********** */
 @media all and (max-width: 990px) {
   .flex-container {

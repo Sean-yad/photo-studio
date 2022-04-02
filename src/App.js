@@ -43,7 +43,27 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
-        <div> Footer </div>
+        <div class="block_footer">
+            <div class="container">
+                <footer>
+                    <div class="row">
+                        <div class="col">
+                        </div>
+                    </div>
+                    
+                    <div class="row_two">
+                        <div class="col"><a href="https://www.facebook.com"><img src="images/facebook_logo35px.png" alt="fb logo" /></a></div>
+                        <div class="col"><a href="https://www.instagram.com"><img src="images/instagram_logo35px.png" alt="ig logo" /></a></div>
+                    </div>
+
+                </footer>
+            </div>
+        </div>
+        <div class="block_copyright">
+            <div class="container">
+                <h4>©2021 Some Guy</h4>
+            </div>
+        </div>
       </Router>
    
   );
