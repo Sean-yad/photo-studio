@@ -1,7 +1,9 @@
 *,
 ::before,
 ::after {
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body,
@@ -12,7 +14,7 @@ html {
 }
 
 
-
+/* ==== HERO SECTION (HOME PAGE) START==== */
 .hero-title {
   max-height: 100%;
   height: 600px;
@@ -27,3 +29,39 @@ html {
   color: #fafafa;
 }
 
+/* ==== HERO SECTION (HOME PAGE) END==== */
+
+
+/* ==== FLEXBOX (HOME PAGE) START==== */
+.landing-page-home{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.landing-container-home {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  min-height: 20vh;
+  border: 1px solid #000;
+  
+}
+
+.image-container-home {
+  background: rgb(159, 255, 247);
+  display: flex;
+  flex: 1 1 30rem;
+  height: 30rem;
+}
+
+.text-container-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  flex-direction: column;
+  height: 30rem;
+  flex: 1 1 30rem;
+}
+/* ==== FLEXBOX (HOME PAGE) END==== */
